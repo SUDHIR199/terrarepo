@@ -5,7 +5,7 @@ secret_key = "EtFAmJvIexch1IYtqfY6A1MnGlKFk3UXaX2uRJqG"
 }
 
 resource "aws_instance" "one" {
-ami = "ami-01a4f99c4ac11b03c"
+ami = "ami-0dfcb1ef8550277af"
 instance_type = "t2.medium"
   key_name        = "terraproject"
   vpc_security_group_ids = [aws_security_group.three.id]
